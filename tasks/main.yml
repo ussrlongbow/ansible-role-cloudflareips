@@ -1,0 +1,5 @@
+---
+- name: "{{ cfips_task_prefix }} Copy config file"
+  copy:
+    src: "{{ cfips_file }}"
+    dest: "{{ cfips_path }}"

@@ -1,0 +1,6 @@
+---
+# All variables specific to this role are prefixed with cfips_
+cfips_task_prefix: "=== CLOUDFLARE REAL IPS ==="
+# Default path to config file
+cfips_path: "/etc/nginx/conf.d/cloudflare.conf"
+cfips_file: "cloudflare.conf"

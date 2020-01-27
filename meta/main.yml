@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Valentin Gostev
+  role_name: cloudflareips
+  description: Ansible Role to copy Cloudflare Real IP list
+  license: MIT
+  min_ansible_version: 2.4
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+        - xenial
+  galaxy_tags:
+    - cloudflare
+    - security
+dependencies: []
